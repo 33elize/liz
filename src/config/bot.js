@@ -12,7 +12,7 @@ export const botConfig = {
   // - "invisible" = appears offline
   presence: {
     // Current online state shown on Discord.
-    status: "online",
+    status: "dnd",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -25,9 +25,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Editing.",
         // Activity type number (0 = Playing).
-        type: 0, 
+        type: 5, 
       },
     ],
   },
@@ -88,8 +88,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#2596be", 
+      secondary: "#2596be", 
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287", 
@@ -98,9 +98,9 @@ export const botConfig = {
       info: "#3498DB", 
 
       // Neutral utility colors.
-      light: "#FFFFFF",
-      dark: "#202225",
-      gray: "#99AAB5",
+      light: "#2596be",
+      dark: "#2596be",
+      gray: "#2596be",
 
       // Discord-style palette shortcuts.
       blurple: "#5865F2",
@@ -121,7 +121,7 @@ export const botConfig = {
         closed: "#ED4245",
         pending: "#99AAB5",
       },
-      economy: "#F1C40F",
+      economy: "#2596be",
       birthday: "#E91E63",
       moderation: "#9B59B6",
 
